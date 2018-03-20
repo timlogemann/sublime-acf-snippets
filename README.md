@@ -2,6 +2,7 @@
 
 This is a collection of Sublime Text snippets for the
 [Advanced Custom Fields](http://www.advancedcustomfields.com/) Wordpress plugin.
+The snippets allow you to easily create fields and field groups in PHP without making use of the GUI.
 
 ## Installation
 
