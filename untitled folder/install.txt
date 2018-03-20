@@ -1,0 +1,10 @@
+================================================
+              ACF Snippets for PHP
+================================================
+
+Thank you for installing ACF Snippets for PHP!
+
+All Snippets added by this plugin start with `acf_add`.
+These snippets allow you to create ACF fields using PHP, avoiding the slow GUI.
+
+Happy hacking!

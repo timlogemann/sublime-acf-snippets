@@ -1,0 +1,41 @@
+<snippet>
+  <content><![CDATA[
+acf_add_local_field_group(array(
+  /* (string) Unique identifier for field group. Must begin with 'group_' */
+  'key' => '${1:KEY}',
+  /* (string) Visible in metabox handle */
+  'title' => '${2:TITLE}',
+  /* (array) An array of fields */
+  'fields' => array(),
+  /* (array) An array containing 'rule groups' where each 'rule group' is an array containing 'rules'.
+  Each group is considered an 'or', and each rule is considered an 'and'. */
+  'location' => array(
+    array(
+      array(
+        'param' => 'post_type',
+        'operator' => '==',
+        'value' => 'post',
+      ),
+    ),
+  ),
+  /* (int) Field groups are shown in order from lowest to highest. Defaults to 0 */
+  'menu_order' => 0,
+  /* (string) Determines the position on the edit screen. Defaults to normal. Choices of 'acf_after_title', 'normal' or 'side' */
+  'position' => 'normal',
+  /* (string) Determines the metabox style. Defaults to 'default'. Choices of 'default' or 'seamless' */
+  'style' => 'default',
+  /* (string) Determines where field labels are places in relation to fields. Defaults to 'top'.
+  Choices of 'top' (Above fields) or 'left' (Beside fields) */
+  'label_placement' => 'top',
+  /* (string) Determines where field instructions are places in relation to fields. Defaults to 'label'.
+  Choices of 'label' (Below labels) or 'field' (Below fields) */
+  'instruction_placement' => 'label',
+  /* (array) An array of elements to hide on the screen */
+  'hide_on_screen' => '',
+));$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>acf_add_field_group</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>
