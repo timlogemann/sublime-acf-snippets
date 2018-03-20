@@ -1,7 +1,5 @@
 # Sublime Text | ACF Snippets for PHP
 
-================================================
-
 This is a collection of Sublime Text snippets for the
 [Advanced Custom Fields](http://www.advancedcustomfields.com/) Wordpress plugin.
 
