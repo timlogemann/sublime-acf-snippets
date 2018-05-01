@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
 acf_add_local_field(array(
-  'key' => '{1:KEY}',
-  'label' => '{2:LABEL}',
-  'name' => '{3:NAME}',
-  'type' => '{4:TYPE}',
+  'key' => '${1:field_KEY}',
+  'label' => '${2:LABEL}',
+  'name' => '${3:NAME}',
+  'type' => '${4:TYPE}',
   'parent' => '${5:PARENT}'
 ));$0
 ]]></content>

@@ -2,7 +2,7 @@
   <content><![CDATA[
 acf_add_local_field_group(array(
   /* (string) Unique identifier for field group. Must begin with 'group_' */
-  'key' => '${1:KEY}',
+  'key' => '${1:field_KEY}',
   /* (string) Visible in metabox handle */
   'title' => '${2:TITLE}',
   /* (array) An array of fields */
