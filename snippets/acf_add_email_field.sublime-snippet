@@ -7,7 +7,6 @@ acf_add_local_field(array(
   'label' => '${2:LABEL}',
   /* (string) Used to save and load data. Single word, no spaces. Underscores and dashes allowed */
   'name' => '${3:NAME}',
-
   'type' => 'email',
   'parent' => '$4',
   /* (string) Instructions for authors. Shown when submitting data */
