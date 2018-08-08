@@ -1,9 +1,15 @@
 <snippet>
   <content><![CDATA[
-acf_add_local_field($1);$0
+array(
+  'key' => '${1:field_KEY}',
+  'label' => '${2:LABEL}',
+  'name' => '${3:NAME}',
+  'type' => '${4:TYPE}',
+  'parent' => '${5:PARENT}'
+)$0
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>acf_add_checkbox_field</tabTrigger>
+  <tabTrigger>acf_add_field</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.php</scope>
 </snippet>

@@ -32,7 +32,7 @@ acf_add_local_field_group(array(
   'instruction_placement' => 'label',
   /* (array) An array of elements to hide on the screen */
   'hide_on_screen' => '',
-));$0
+)$0
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>acf_add_field_group</tabTrigger>

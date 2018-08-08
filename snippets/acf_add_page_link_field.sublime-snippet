@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-acf_add_local_field(array(
+array(
   /* (string) Unique identifier for the field. Must begin with 'field_' */
   'key' => '${1:field_KEY}',
   /* (string) Visible when editing the field value */
@@ -32,7 +32,7 @@ acf_add_local_field(array(
   'allow_null' => 0,
   /* (bool) Allow mulitple choices to be selected. Defaults to 0 */
   'multiple' => 0,
-));$0
+)$0
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>acf_add_page_link_field</tabTrigger>
