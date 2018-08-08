@@ -1,0 +1,22 @@
+================================================
+            ACF Programmatic Fields
+================================================
+                    v.1.0.6
+================================================
+
+Hey!
+
+I updated the package with the following changes:
+
+- The whiteline below `'name' => ''` is no more.
+
+- One of the snippets had a stowaway , behind `'parent' => '',`.
+  The captain has taken appropriate measures.
+
+- Most importantly all snippets have shed their outer shell, `acf_add_local_field()` is now a separate snippet.
+  This way you no longer have to remove them if you place each field as a subfield or as a child of a field group.
+
+- The snippet `acf_add_local_field` has been renamed to `acf_add_generic_field` to make way for the new separate acf_add_local_field() function.
+
+That's all!
+
